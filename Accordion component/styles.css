@@ -2,22 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #223554;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-top: 10%;
 }
 
 .accordion {
-  background-color: cornflowerblue;
   width: 600px;
-  margin: 5% auto;
+  margin: auto;
   max-width: 80%;
-  border: 2px solid blue;
-  border-radius: 10px;
+  border-bottom: 2px solid white;
   overflow: hidden;
   height: 44px;
   transition: 500ms ease-in-out;
 }
 
 .accordion-head {
-  background-color: rgb(58, 121, 239);
+  justify-content: space-between;
   height: 40px;
   display: flex;
   align-items: center;
