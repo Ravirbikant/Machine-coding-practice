@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordion {
+  background-color: cornflowerblue;
+  width: 600px;
+  margin: 5% auto;
+  max-width: 80%;
+  border: 2px solid blue;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 44px;
+  transition: 500ms ease-in-out;
+}
+
+.accordion-head {
+  background-color: rgb(58, 121, 239);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.accordion-body {
+  height: 100px;
+  padding: 5px 20px;
+}
