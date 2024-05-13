@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: darkslateblue;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  margin: 10px;
+  background-color: springgreen;
+  width: 400px;
+  height: 250px;
+  border: solid 2px black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(100px);
+  opacity: 0;
+  transition: 150ms;
+}
+
+.show {
+  transform: translateX(0);
+  opacity: 1;
+}
